@@ -1,5 +1,5 @@
 {
-  "name": "react-markdown",
+  "name": "rmd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,14 +10,18 @@
     "@types/node": "^16.11.31",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.0",
+    "highlight.js": "^11.5.1",
+    "marked": "^4.0.14",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-markdown": "^8.0.3",
     "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
     "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=5001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/marked": "^4.0.3",
+    "@types/react-syntax-highlighter": "^13.5.2"
   }
 }

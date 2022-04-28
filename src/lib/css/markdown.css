@@ -1,0 +1,69 @@
+.md-icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.md-toolbar-item {
+    height: 24px;
+    display: inline-block;
+    padding: 0 4px;
+    transition: all .3s;
+    border-radius: 0;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 1em;
+    resize: none;
+    border: none;
+    outline: none;
+    overflow-y: scroll;
+    color: inherit;
+    background-color: inherit;
+}
+
+
+textarea::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background-color: #e2e2e2;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #0000004d;
+}
+
+.toolbar {
+    padding: 4px;
+    height: 35px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.wrapper {
+    display: flex;
+    height: calc(100% - 50px);
+}
+
+.editor {
+    flex: 1;
+}
+
+.result  {
+    flex: 1
+}
