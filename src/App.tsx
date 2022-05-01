@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import ReactMarkdown from "./lib/ReactMarkdown";
+import ReactMarkdown from 'fyrmd';
+import 'fyrmd/dist/fyrmd.cjs.development.css'
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
                 height: 600,
                 margin: "100px auto"
             }}>
-                <ReactMarkdown/>
+                <ReactMarkdown />
             </div>
         </div>
     );

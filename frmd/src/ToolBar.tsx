@@ -1,4 +1,5 @@
 import React from "react";
+import './css/markdown.css'
 function ToolBar () {
     return (<div className={ 'toolbar' }>
         <svg className="md-icon" aria-hidden="true">

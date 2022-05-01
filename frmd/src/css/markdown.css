@@ -31,16 +31,16 @@ textarea {
 }
 
 
-textarea::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 6px;
     height: 6px;
 }
 
-textarea::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background-color: #e2e2e2;
 }
 
-textarea::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     border-radius: 3px;
     background-color: #0000004d;
 }
@@ -61,9 +61,12 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .editor {
+    width: 50%;
     flex: 1;
 }
 
 .result  {
-    flex: 1
+    width: 50%;
+    flex: 1;
+    word-break: break-word;
 }
